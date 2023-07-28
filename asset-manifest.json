@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/useaxios/static/css/main.4396f042.css",
-    "main.js": "/useaxios/static/js/main.2e8ebf86.js",
-    "static/js/787.9b883fd6.chunk.js": "/useaxios/static/js/787.9b883fd6.chunk.js",
-    "index.html": "/useaxios/index.html",
-    "main.4396f042.css.map": "/useaxios/static/css/main.4396f042.css.map",
-    "main.2e8ebf86.js.map": "/useaxios/static/js/main.2e8ebf86.js.map",
-    "787.9b883fd6.chunk.js.map": "/useaxios/static/js/787.9b883fd6.chunk.js.map"
+    "main.css": "/Use-of-Axios/static/css/main.4396f042.css",
+    "main.js": "/Use-of-Axios/static/js/main.ddcf4265.js",
+    "static/js/787.9b883fd6.chunk.js": "/Use-of-Axios/static/js/787.9b883fd6.chunk.js",
+    "index.html": "/Use-of-Axios/index.html",
+    "main.4396f042.css.map": "/Use-of-Axios/static/css/main.4396f042.css.map",
+    "main.ddcf4265.js.map": "/Use-of-Axios/static/js/main.ddcf4265.js.map",
+    "787.9b883fd6.chunk.js.map": "/Use-of-Axios/static/js/787.9b883fd6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4396f042.css",
-    "static/js/main.2e8ebf86.js"
+    "static/js/main.ddcf4265.js"
   ]
 }
