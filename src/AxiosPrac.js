@@ -15,38 +15,36 @@ let AxiosPrac = () => {
     return (
         <>
             <div className="main">
-                <h1>Fetching data from API</h1>
+                <h1>Fetching data from API🚀</h1>
                 <h1>(Using Axios, ReactJs)</h1>
-                <div className="my-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>City</th>
-                                <th>ZipCode</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {
-                                data.map((currElem) => {
-                                    return (
-                                        <>
-                                            <tr key={currElem.id}>
-                                                <td>{currElem.id}</td>
-                                                <td>{currElem.name}</td>
-                                                <td>{currElem.email}</td>
-                                                <td>{currElem.address.city}</td>
-                                                <td>{currElem.address.zipcode}</td>
-                                            </tr>
-                                        </>
-                                    )
-                                })
-                            }
-                        </tbody>
-                    </table>
-                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>City</th>
+                            <th>ZipCode</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {
+                            data.map((currElem) => {
+                                return (
+                                    <>
+                                        <tr key={currElem.id}>
+                                            <td>{currElem.id}.</td>
+                                            <td>{currElem.name}</td>
+                                            <td>{currElem.email}</td>
+                                            <td>{currElem.address.city}</td>
+                                            <td>{currElem.address.zipcode}</td>
+                                        </tr>
+                                    </>
+                                )
+                            })
+                        }
+                    </tbody>
+                </table>
             </div>
         </>
 

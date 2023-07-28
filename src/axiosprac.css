@@ -6,8 +6,6 @@
 
 body {
     background-color: #E1ECC8;
-    height: 100vh;
-    width: 100vw;
 }
 
 .main {
@@ -30,20 +28,30 @@ th {
     padding: 5px;
 }
 
+tr {
+    text-align: center;
+}
+
 @media (max-width:600px) {
-    table{
+    table {
         font-size: 10px;
     }
+
     td,
     th {
         padding: 0;
     }
-    h1{
+
+    h1 {
         font-size: 1.5rem;
     }
 }
+
 @media (max-width:365px) {
-    table{
+    table {
         font-size: 7px;
+    }
+    h1 {
+        font-size: 1.4rem;
     }
 }
